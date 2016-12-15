@@ -9,7 +9,7 @@ import javafx.stage.Stage;
 public class Main extends Application {
     @Override
     public  void start(Stage notepadStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("resource/sample.fxml"));
         notepadStage.setTitle("WritteApp");
         notepadStage.setScene(new Scene(root, 600, 400));
         notepadStage.show();

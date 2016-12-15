@@ -1,4 +1,4 @@
-package sample;
+package sample.controller;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -7,6 +7,7 @@ import javafx.scene.control.TextArea;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
+import sample.Main;
 
 import java.io.*;
 import java.util.logging.Level;
