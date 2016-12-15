@@ -27,8 +27,7 @@ public class Controller {
 
     public void initialize() throws IOException {
         open.setOnAction(Event -> {
-            String currentDir = System.getProperty("user.dir") + File.separator;
-            StringBuilder sb = null;
+            StringBuilder sb;
             FileChooser fc = new FileChooser();
             FileChooser.ExtensionFilter extFilter =
                     new FileChooser.ExtensionFilter("TXT files (*.txt)", "*.txt");
