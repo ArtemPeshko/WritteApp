@@ -15,8 +15,7 @@ import java.util.logging.Logger;
 
 public class Controller {
 
-    @FXML
-    Button newFile;
+
     @FXML
     Button open;
     @FXML
